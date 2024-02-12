@@ -13,10 +13,10 @@ Exercici 1
      	cd llibre
       	git init
        	ls -la
-	git config --global user.name
- 	git config --global user.email
-  	git config --global color.ui true
-   	git config --global --list
+		git config --global user.name
+	 	git config --global user.email
+	  	git config --global color.ui true
+	   	git config --global --list
   
 Exercici 2
 -
@@ -30,8 +30,8 @@ Exercici 2
 		Capitol 1: Introducció a Git
 		Capitol 2: Fluxe de treball bàsic
 		Capitol 3: Repositoris remots
-  	git status
-   	git add index.txt
+	  	git status
+	   	git add index.txt
     	git status
 
 Exercici 3
