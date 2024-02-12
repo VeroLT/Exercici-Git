@@ -1,65 +1,35 @@
-Exercici GIT 1: Exercicis de creació i actualització de repositoris 
+Exercici GIT 1: Creació i actualització de repositoris
+=
+Indica els comandaments amb els quals resoldries els escenaris plantejats en els diferents exercicis.
 
-Verónica Lull Torres 
-Entorns de desenvolupament 
-IES Enric Valor (Pego)
+Exercici 1
+-
+    Crea un repositori nou amb el nom llibre i mostra el seu contingut.
+    Configura Git definint el nom de l'usuari, el correu electrònic i activa l'exida en color. Mostra la configuració final.
 
+Exercici 2
+-
+    Comprova l'estat del repositori.
+    Crea un fitxer índex.txt amb el següent contingut:
+    Comprova de nou l'estat del repositori.
+    Afegeix el fitxer a la zona d'intercanvi temporal.
+    Torna a comprovar una vegada més l'estat del repositori.
 
+Exercici 3 Realitza un commit dels últims canvis amb el missatge "Afegit índex del llibre." i revisa l'estat del repositori.
+-
+Exercici 4
+-
+    Canvia el fitxer índex.txt perquè continga el següent:
 
+    Mostra els canvis respecte a l'última versió guardada al repositori.
+    Fes un commit dels canvis amb el missatge "Afegit capítol 3 sobre gestió de branques".
 
+Exercici 5
 
-Índex: 
-Exercici GIT 1: Exercicis de creació i actualització de repositoris. 1 
-Índex:.......................................................................................................2 Activitat 1:...............................................................................................................................3 Pas 1: Mostra l'historial de canvis del repositori.....................................................3 Pas 2:Crea la carpeta capítols i dins d'ella crea el fitxer capitol1.txt amb un text..............3 Pas 3: Afegeix els canvis a la zona d'intercanvi temporal (staging area).......................... 3 Pas 4: Fes un commit dels canvis amb el missatge "Afegit capítol 1.".............................. 3 Pas 5: Torna a mostrar l'historial de canvis del repositori.................................................. 3 Activitat 2:...............................................................................................................................5 Pas 1: Crea el fitxer capitol2.txt a la carpeta capítols amb el text......................................5 Pas 2: Realizar un commit de los cambios con el mensaje "Afegit capítol 2."...................5 Paso 3: Mostrar las diferencias entre la última versión y las dos versiones anteriores..... 6 
-Activitat 3: Realitza un commit dels últims canvis amb el missatge "Afegit índex del llibre." i veure l'estat del repositori...................................................................................... 9 Pas 1: Crea el fitxer capitol3.txt a la carpeta capítols amb un text:....................................9 Pas 2: Afegeix els canvis a la zona d'intercanvi temporal..................................................9 Activitat 4:.............................................................................................................................10 Pas 1: Afegir al final del fitxer índex.txt la següent línia:..................................................10 Pas 2: Afegir canvis a la zona d'intercanvi temporal (staging area).................................10 Pas 3: Fer un commit dels canvis amb el missatge "Afegit capítol 5 a l'índex."...............11 Pas 4: Mostrar qui ha fet canvis sobre el fitxer índex.txt.................................................. 11 
+    Mostra els canvis de l'última versió del repositori respecte a l'anterior.
+    Canvia el missatge de l'últim commit a "Afegit capítol 3 sobre gestió de branques a l'índex."
+    Torna a mostrar els últims canvis del repositori.
 
-Activitat 1: 
-Pas 1: Mostra l'historial de canvis del repositori. 
-fent el comandament “git log”. 
-Pas 2:Crea la carpeta capítols i dins d'ella crea el fitxer capitol1.txt amb un text. 
-Crea l’arxiu capitol2.txt amb el text proporcionat. 
-echo "Git és un sistema de control de versions ideat per Linus Torvalds" > capítols/capitol2.txt” 
-Pas 3: Afegeix els canvis a la zona d'intercanvi temporal (staging area) 
-Afegim el comandament “git add capítols/capitol2.txt” 
-Pas 4: Fes un commit dels canvis amb el missatge "Afegit capítol 1." 
-Afegim el comandament “git commit -m "Añadido archivo capitol2.txt en capítols"”. 
-Pas 5: Torna a mostrar l'historial de canvis del repositori. Afegim el comandament “git log” 
+Exercici 6
 
-Activitat 2: 
-Pas 1: Crea el fitxer capitol2.txt a la carpeta capítols amb el text 
-Crear la carpeta 'capítols' si no està creada 
-mkdir -p capítols 
-Crear l’arxiu capitol2.txt amb el text proporcionat 
-echo "Texto del capítulo 2" > capítols/capitol2.txt 
-Afegir els canvios a la zona d’intercanvi temporal (staging area) 
-git add capítols/capitol2.txt 
-Comprobar l’estat del repositori. 
-git status 
-Pas 2: Realizar un commit de los cambios con el mensaje "Afegit capítol 2." 
-Realitzar el commit amb el missatge especificat 
-git commit -m "Afegit capítol 2." 
-Mostrar l’historial de canvis del repositori git log 
-Paso 3: Mostrar las diferencias entre la última versión y las dos versiones anteriores 
-Mostrar les diferències respecte a l’última versió 
-git diff HEAD^ HEAD 
-
-Activitat 3: Realitza un commit dels últims canvis amb el missatge "Afegit índex del llibre." i veure l'estat del repositori. 
-Pas 1: Crea el fitxer capitol3.txt a la carpeta capítols amb un text: 
-Amb el comandament “echo -e"Git permet la creació de branques, la qual cosa permet tindre distintes versions del mateix projecte i treballar simultàniament en elles."” 
-Pas 2: Afegeix els canvis a la zona d'intercanvi temporal. 
-Afegir canvis a la zona d'intercanvi temporal (staging area) 
-“git add capítols/capitol3.txt” 
-Fer el commit amb el missatge especificat 
-“git commit -m "Afegit capítol 3."” 
-Mostrar les diferències entre la primera i l'última versió del repositori “git log” 
-
-
-Activitat 4: 
-Pas 1: Afegir al final del fitxer índex.txt la següent línia: 
-Pots utilitzar un editor de text o el següent comandament per canviar el contingut del fitxer: “echo "Afegir l’informació dins del fitxer" > índex.txt” 
-Pas 2: Afegir canvis a la zona d'intercanvi temporal (staging area) 
-Amb el comandament de “git add index.txt” 
-Pas 3: Fer un commit dels canvis amb el missatge "Afegit capítol 5 a l'índex." 
-Afegim un “git commit -m "Afegit capítol 5 a l'índex."” 
-Pas 4: Mostrar qui ha fet canvis sobre el fitxer índex.txt. I per últim, “git log índex.txt”. 
-
+Indica a Git que vols ignorar tots els fitxers que comencen per "daw", tots els que tenen l'extensió out i les imatges (jpg, png, bmp i gif).
