@@ -65,11 +65,10 @@ Exercici 5
 
 Exercici 6
 -
-Indica a Git que vols ignorar tots els fitxers que comencen per "daw", tots els que tenen l'extensió out i les imatges (jpg, png, bmp i gif).
-Comandos: 
-    nano .gitignore
-    Per ignorar el fitxer daw es daw*, per ignorar l’extensió out es *.out i per ignorar les
-    imatges es *.jpg, *.png, *.bmp, *.git
-    git add .gitignore
-    
+    Indica a Git que vols ignorar tots els fitxers que comencen per "daw", tots els que tenen l'extensió out i les imatges (jpg, png, bmp i gif).
+        nano .gitignore
+        Per ignorar el fitxer daw es daw*, per ignorar l’extensió out es *.out i per ignorar les
+        imatges es *.jpg, *.png, *.bmp, *.git
+        git add .gitignore
+        
     
