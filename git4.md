@@ -3,13 +3,13 @@ Exercici GIT 4: Gestió de branques
 
 Exercici 1
 -
-  Crea una nova branca bibliografia i mostrar les branques del repositori.
-  Comandos:
-    git branch bibliografia
-    git checkout bibliografia
-    git branch
-    git branch -a
-    
+    Crea una nova branca bibliografia i mostrar les branques del repositori.
+    Comandos:
+      git branch bibliografia
+      git checkout bibliografia
+      git branch
+      git branch -a
+
 Exercici 2
 -
     Crear el fitxer capítols/capitol4.txt i afegir el següent text
